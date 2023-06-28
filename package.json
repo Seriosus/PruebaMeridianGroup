@@ -1,0 +1,25 @@
+{
+  "name": "pruebameridiangroup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seriosus/PruebaMeridianGroup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seriosus/PruebaMeridianGroup/issues"
+  },
+  "homepage": "https://github.com/Seriosus/PruebaMeridianGroup#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2"
+  }
+}
