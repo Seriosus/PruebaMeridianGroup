@@ -141,6 +141,14 @@ Ejemplo de respuesta:
 
 - Efectuar una compra, crea un registro de venta, y una factura con todos los detalles de la compra
 
+Se requiere enviar el ID del carrito de compras
+
+```json
+{
+    "cartId": "dfb8cfc1cbd93ddb2" 
+} 
+```
+
 `POST /shop`
 
 Ejemplo de respuesta:
