@@ -276,3 +276,5 @@ Ejemplo de respuesta:
 	}
 }
 ```
+
+Con ❤️ para Meridian Group
