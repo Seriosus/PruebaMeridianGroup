@@ -42,6 +42,15 @@ ItemCategory = new DataStorage('item-categories', ['itemId', 'categoryId']);
 Category = new DataStorage('categories', ['id', 'name']);
 ```
 
+Nota: Los datos de los modelos Item, Category, ItemCategory y Coupon son llenados automáticamente al iniciar el servicio, la información guardada se puede ver en el archivo `seed-database.js`
+
+## Inciar servicio
+
+Para iniciar el servicio debes tener instalado Node en su version 16
+
+1. Instala lo requerido a través de `npm install`
+2. Inicia el servicio a través de `npm start`
+
 ## API
 
 Todos los endpoints requerirán que envies estas cabeceras:
@@ -140,6 +149,14 @@ Ejemplo de respuesta:
 ## SHOP
 
 - Efectuar una compra, crea un registro de venta, y una factura con todos los detalles de la compra
+
+Se requiere enviar el ID del carrito de compras
+
+```json
+{
+    "cartId": "dfb8cfc1cbd93ddb2" 
+} 
+```
 
 `POST /shop`
 
